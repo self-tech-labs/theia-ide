@@ -30,17 +30,17 @@ function BrowserLink(props: ExternalBrowserLinkProps): JSX.Element {
 export function renderWhatIs(windowService: WindowService): React.ReactNode {
     return <div className='gs-section'>
         <h3 className='gs-section-header'>
-            What is this?
+            Qu'est-ce que ogram ?
         </h3>
         <div>
-            The Eclipse Theia IDE is a modern and open IDE for cloud and desktop. The Theia IDE is based on the <BrowserLink text="Theia platform"
-            url="https://theia-ide.org" windowService={windowService} ></BrowserLink>.
+            ogram est une plateforme moderne et innovante conçue spécifiquement pour les professionnels du droit. Propulsée 
+            par l'intelligence artificielle, ogram révolutionne la façon dont les avocats travaillent au quotidien.
         </div>
         <div>
-            The IDE is available as a <BrowserLink text="downloadable desktop application" url="https://theia-ide.org//#theiaidedownload"
-            windowService={windowService} ></BrowserLink>. You can also <BrowserLink text="try the latest version of the Theia IDE online"
-            url="https://try.theia-cloud.io/" windowService={windowService} ></BrowserLink>. The online test version is limited to 30 minutes per session and hosted
-            via <BrowserLink text="Theia Cloud" url="https://theia-cloud.io/" windowService={windowService} ></BrowserLink>.
+            ogram est disponible en <BrowserLink text="téléchargement" url="https://ogram.legal/download" 
+            windowService={windowService} ></BrowserLink> pour votre ordinateur. Vous pouvez également <BrowserLink 
+            text="essayer ogram en ligne" url="https://app.ogram.legal" windowService={windowService} ></BrowserLink> 
+            gratuitement pendant 30 jours.
         </div>
     </div>;
 }
@@ -48,17 +48,17 @@ export function renderWhatIs(windowService: WindowService): React.ReactNode {
 export function renderExtendingCustomizing(windowService: WindowService): React.ReactNode {
     return <div className='gs-section'>
         <h3 className='gs-section-header'>
-            Extending/Customizing the Theia IDE
+            Personnalisation d'ogram
         </h3>
-        <div >
-            You can extend the Theia IDE at runtime by installing VS Code extensions, e.g. from the <BrowserLink text="OpenVSX registry" url="https://open-vsx.org/"
-            windowService={windowService} ></BrowserLink>, an open marketplace for VS Code extensions. Just open the extension view or browse <BrowserLink
-            text="OpenVSX online" url="https://open-vsx.org/" windowService={windowService} ></BrowserLink>.
+        <div>
+            ogram s'enrichit continuellement de nouvelles fonctionnalités d'IA. Vous pouvez étendre ses capacités en 
+            installant des extensions spécialisées pour le domaine juridique depuis notre <BrowserLink 
+            text="marketplace" url="https://extensions.ogram.legal" windowService={windowService} ></BrowserLink>.
         </div>
         <div>
-            Furthermore, the Theia IDE is based on the flexible Theia platform. Therefore, the Theia IDE can serve as a <span className='gs-text-bold'>template</span> for building
-            custom tools and IDEs. Browse <BrowserLink text="the documentation" url="https://theia-ide.org/docs/composing_applications/"
-            windowService={windowService} ></BrowserLink> to help you customize and build your own Eclipse Theia-based product.
+            Notre plateforme s'adapte à vos besoins spécifiques et à votre domaine de pratique. Consultez 
+            <BrowserLink text="notre documentation" url="https://docs.ogram.legal" windowService={windowService} ></BrowserLink> 
+            pour personnaliser votre environnement de travail.
         </div>
     </div>;
 }
