@@ -8,7 +8,7 @@
  ********************************************************************************/
 
 :root {
-    --theia-branding-logo: url(../icons/TheiaIDE.png);
+    --theia-branding-logo: url(../icons/Ogram.png);
 }
 
 .theia-icon {
@@ -21,19 +21,24 @@
 .gs-blue-header {
     color: #5088e7;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
 }
 
 .gs-text-bold {
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 0.2px;
 }
 
 .gs-text-underline {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .gs-float {
     float: right;
+    margin-left: 1.5rem;
 }
 
 .gs-logo {
@@ -41,9 +46,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 250px;
-    height: 118px;
-    padding: 20px;
+    width: 280px;
+    height: 130px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.gs-logo:hover {
+    transform: scale(1.05);
 }
 
 .ad-logo {
@@ -51,26 +61,34 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 250px;
-    height: 118px;
-    padding: 20px;
+    width: 280px;
+    height: 130px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ad-float {
     float: right;
+    margin-left: 2rem;
 }
 
 .ad-container {
-    padding: 20px;
-    width: 1150px;
-    height: 700;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 ul.theia-aboutExtensions {
     height: 450px;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     list-style-type: none;
-    padding: 0;
-    margin-left: 10px;
- }
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
